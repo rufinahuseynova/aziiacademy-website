@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education with us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4>AZİİ ACADEMY</h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Akademiya</a></li>
+                <li><a href="about.html">Haqqımızda</a></li>
+                <li><a href="courses.html">Tədris sahələri</a></li>
+                <li><a href="contact.html">Bizimlə əlaqə</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="contact_aside">
+                <div class="aside_image">
+                    <img src="https://d15yx0mnc9teae.cloudfront.net/sites/default/files/2021-10/contact-us-showcase.png"
+                        alt="">
+                </div>
+                <h2>Bizimlə əlaqə</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fuga quae accusantium tenetur sint
+                    omnis!</p>
+                <ul class="contact_details">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <h5>+994 378 37 38</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5>aziiacademy@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Bakı,28 May</h5>
+                    </li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </aside>
+
+            <form action="" class="contact_form">
+                <div class="form_name">
+                    <input type="text" name="First Name" id="name" placeholder="Adınız" required>
+                    <input type="text" name="Last Name" id="surname" placeholder="Soyadınız" required>
+                </div>
+                <input type="email" id="email" name="Email Address" placeholder="Elektron poçt ünvanınız" required>
+                <textarea name="Message" id="message" rows="7" placeholder="Mesajınızı yazın" required></textarea>
+                <button type="submit" class="btn btn-primary">Göndər</button>
+            </form>   
+
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="container footer_container">
+
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>AZİİ ACADEMY</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quam eveniet aut?</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Bağlantılar</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Akademiya</a></li>
+                    <li><a href="about.html">Haqqımızda</a></li>
+                    <li><a href="courses.html">Tədris sahələri</a></li>
+                    <li><a href="contact.html">Bizimlə əlaqə</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Məxfilik</h4>
+                <ul class="privacy">
+                    <li><a href="#">Gizlilik Siyasəti</a></li>
+                    <li><a href="#">Şərtlər və Qaydalar</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Bizimlə əlaqə</h4>
+                <div>
+                    <p>+994 378 37 38</p>
+                    <p>aziiacademy@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer_copyright">
+                <small>Copyright 2024</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/79143694bf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //when window width is>=600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

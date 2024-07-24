@@ -1,0 +1,54 @@
+.courses {
+    margin-top: 1rem;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+    margin: 20px 70px;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+}
+/* Modal stil */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /* padding-top: 60px; */
+    left: 0;
+    top: 0; 
+    width: 100%;
+    align-items: center;
+    height: 100%; 
+    overflow: auto;
+     background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 70px;
+    
+}
+.modal-content {
+    background-color: whitesmoke;
+    color: gray;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

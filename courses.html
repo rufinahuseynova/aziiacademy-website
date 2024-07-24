@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Education with us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4>AZİİ ACADEMY</h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Akademiya</a></li>
+                <li><a href="about.html">Haqqımızda</a></li>
+                <li><a href="courses.html">Tədris sahələri</a></li>
+                <li><a href="contact.html">Bizimlə əlaqə</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+
+    <section class="courses">
+
+        <h2>Populyar Kurslarımız</h2>
+
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Kurs axtar..." class="search-bar">
+            <button id="searchBtn" class="btn btn-primary">Axtar</button>
+        </div>
+
+
+        <div class="container courses_container" id="coursesContainer">
+
+            <article class="course" data-id="1" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://bairesdev.mo.cloudinary.net/blog/2022/01/programming-languages-1.jpg">
+                </div>
+                <div class="course_info">
+                    <h4> Front-End Proqramlaşdırma</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="1">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="2" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://media.licdn.com/dms/image/D5612AQEzgFfwTwtHvg/article-cover_image-shrink_720_1280/0/1687170761242?e=2147483647&v=beta&t=XugdoHfGUgUrREn8MqUN5OhVb5S8lnohcvtSqokoUGM"
+                        alt="">
+                </div>
+                <div class="course_info">
+                    <h4>UX/Uİ Dizayn</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="2">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="3" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://www.cgtechnologies.com/wp-content/uploads/2023/01/what-is-cyber-security.jpg"
+                        alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Kiber Təhlükəsizlik</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="3">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="4" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/5901/3716/files/coding_background.jpg?v=1688538955"
+                        alt="" height="250px">
+                </div>
+                <div class="course_info">
+                    <h4>Back-End Proqramlaşdırma</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="4">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="5" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5497ab83e4b02e9f5e5cec35/1582071694207-TRSUSW16UX8RA8I4N24H/motion+graphics+animation+nyc"
+                        alt="" height="250px">
+                </div>
+                <div class="course_info">
+                    <h4>2D Motion Dizayn</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="5">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="6" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://cdn.logojoy.com/wp-content/uploads/20231122153748/what-is-graphic-design-header.jpg"
+                        alt="" height="250px">
+                </div>
+                <div class="course_info">
+                    <h4>Qrafik Dizayn</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="6">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="7" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://www.digiarc.aist.go.jp/img/main.png" alt="" height="250px">
+                </div>
+                <div class="course_info">
+                    <h4>Digital Memarlıq ve 3D</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="7">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="8" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://hakimisolutions.com/wp-content/uploads/trends-in-digital-marketing.png" alt=""
+                        height="250px">
+                </div>
+                <div class="course_info">
+                    <h4>Digital Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="8">Daha çox</a>
+                </div>
+            </article>
+
+            <article class="course" data-id="9" data-detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <div class="course_image">
+                    <img src="https://www.interactivemedia.az/wp-content/uploads/2020/02/smm.jpg" alt="" height="250px">
+                </div>
+                <div class="course_info">
+                    <h4>SMM</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam labore quas id recusandae fugit
+                        suscipit sint.</p>
+                    <a href="javascript:void(0)" class="btn btn-primary more-info" data-id="9">Daha çox</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+    <!-- modal pencere -->
+    <div id="courseModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="container footer_container">
+
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>AZİİ ACADEMY</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quam eveniet aut?</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Bağlantılar</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Akademiya</a></li>
+                    <li><a href="about.html">Haqqımızda</a></li>
+                    <li><a href="courses.html">Tədris sahələri</a></li>
+                    <li><a href="contact.html">Bizimlə əlaqə</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Məxfilik</h4>
+                <ul class="privacy">
+                    <li><a href="#">Gizlilik Siyasəti</a></li>
+                    <li><a href="#">Şərtlər və Qaydalar</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Bizimlə əlaqə</h4>
+                <div>
+                    <p>+994 378 37 38</p>
+                    <p>aziiacademy@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer_copyright">
+                <small>Copyright 2024</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/79143694bf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //when window width is>=600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
